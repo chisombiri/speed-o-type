@@ -1,0 +1,17 @@
+-Focus on input once game starts.
+-Generate random word from words array.
+-intialise random word variable.
+-Add random word to dom.
+-Set function to update time, i.e countdown(reduce time by 1).
+-Clear time interval once time equals zero and call a game over function.
+-Game over just displays an element on the end game function which has button that reload with onclick function
+-Set a time interval so the function to updtae time happens every 1 second.
+-Update score function (append 2 to score once correct).
+-initialise texted word.
+-Upon input, if the random word is equals to texted word, Run functions to Add random word to dom and Update score,
+Also add conditions for time incrememnt upon this.
+-Initialise difficulty variable and set it to value in local storage or Medium.
+-Set selected value of difficulty from DOM to value from local storage.
+-When I change settings button on select use event listener to change difficulty to targeted value 
+and set this value to difficulty on local storage.
+-Toggle class list to show settings when settings button is clicked
